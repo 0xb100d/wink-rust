@@ -1,28 +1,25 @@
-[![Build Status](https://travis-ci.org/mimblewimble/grin.svg?branch=master)](https://travis-ci.org/mimblewimble/grin) [![Gitter chat](https://badges.gitter.im/grin_community/Lobby.png)](https://gitter.im/grin_community/Lobby) [![Codecov coverage status](https://codecov.io/gh/mimblewimble/grin/branch/master/graph/badge.svg)](https://codecov.io/gh/mimblewimble/grin)
+[![Gitter chat](https://badges.gitter.im/tmgox/Lobby.png)](https://gitter.im/tmgox/Lobby) 
+# WINK
 
-# Grin
+WINK is an in-progress implementation of the MimbleWimble protocol, and aims to be all things to all people. By combining multiple digital coins on a single chain, WINK simultaneously satisfies every single economics assumption at once, allowing users to pick and choose exactly what kind of cryptoeconomy they want.
 
-Grin is an in-progress implementation of the MimbleWimble protocol. Many characteristics are still undefined but the following constitutes a first set of choices:
-
-  * Clean and minimal implementation, aiming to stay as such.
+  * Inelegant, maximal implementation, checks all the  boxes.
   * Follows the MimbleWimble protocol, which provides great anonymity and scaling characteristics.
-  * Cuckoo Cycle proof of work.
-  * Relatively fast block time (a minute).
-  * Fixed block reward over time with a decreasing dilution.
+  * Uses [Confidential Assets](https://lists.launchpad.net/mimblewimble/msg00103.html) to implement almost ten different mimblewimble coins into one blockchain. Each has unique properties which do not affect the economics of any of the other assets on the chain, so you can pick and choose your perfect cryptoeconomic assumptions.
   * Transaction fees are based on the number of Outputs created/destroyed and total transaction size.
   * Smooth curve for difficulty adjustments.
 
-To learn more, read our [introduction to MimbleWimble and Grin](doc/intro.md).
+
 
 ## Status
 
-Grin is still an infant, much is left to be done and [contributions](CONTRIBUTING.md) are welcome (see below). Check our [mailing list archives](https://lists.launchpad.net/mimblewimble/) for the latest status.
+Wink is still an infant, much is left to be done and [contributions](CONTRIBUTING.md) are welcome (see below). Check our [mailing list archives](https://lists.launchpad.net/mimblewimble/) for the latest status.
 
 ## Contributing
 
-To get involved, read our [contributing docs](CONTRIBUTING.md).
+To get involved, please contribute to the Grin testnet development. Read their [contributing docs](CONTRIBUTING.md).
 
-Find us:
+Find them:
 
 * Chat: [Gitter](https://gitter.im/grin_community/Lobby).
 * Mailing list: join the [~MimbleWimble team](https://launchpad.net/~mimblewimble) and subscribe on Launchpad.
@@ -36,7 +33,7 @@ To build and try out Grin, see the [build docs](doc/build.md).
 
 ## Philosophy
 
-Grin likes itself small and easy on the eyes. It wants to be inclusive and welcoming for all walks of life, without judgement. Grin is terribly ambitious, but not at the detriment of others, rather to further us all. It may have strong opinions to stay in line with its objectives, which doesn't mean disrespect of others' ideas.
+WINK wants to satisfy everyone, from those who have never so much as owned a bank account, to professional economists. It wants to be inclusive and welcoming for all walks of life, without judgement. WINK is terribly ambitious, but not at the detriment of others, rather to further us all. It may have strong opinions to stay in line with its objectives, which doesn't mean disrespect of others' ideas.
 
 We believe in pull requests, data and scientific research. We do not believe in unfounded beliefs.
 
